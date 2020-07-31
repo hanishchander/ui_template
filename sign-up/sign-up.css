@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2dff2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1630f6;
+}
+
+.container {
+    border-radius: 10px;
+    display: flex;
+    width: 800px;
+    max-width: 100%;
+    height: 550px;
+    box-shadow: 0 5px 22.5px rgba(25, 25, 93, 0.2);
+}
+
+.guide-info {
+    width: 442px;
+    background-color: #24246f;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.guide-info img {
+    width: 110px;
+}
+
+.guide-info h3 {
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.underline {
+    border-bottom: 2px dashed deeppink;
+}
+
+.guide-info p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.options {
+    background-color: #F6F5FC;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    cursor: pointer;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 7px 0;
+    border-radius: 10px;
+    box-shadow: 0 2.5px 5px #e2dff2;
+}
+
+.email i {
+    background-color: #f6f5fc;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+.twitter {
+    cursor: pointer;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 7px 0;
+    border-radius: 10px;
+    box-shadow: 0 2.5px 5px #e2dff2;
+}
+
+.twitter i {
+    background-color: #f6f5fc;
+    color: #1da0f1;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px;
+
+}
+
+.facebook {
+    cursor: pointer;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 7px 0;
+    border-radius: 10px;
+    box-shadow: 0 2.5px 5px #e2dff2;
+}
+
+.facebook i {
+    background-color: #f6f5fc;
+    color: #1da0f1;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px 19px;
+    margin-right: 15px;
+}
+
+small {
+    padding: 14px 0 0 0;
+    font-size: 11.5px;
+    width: 130px;
+    position: relative;
+    top: 18px;
+    right: -312px;
+}
+
+.login-opt {}
+
+@media(max-width:768px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .guide-info {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    form {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
