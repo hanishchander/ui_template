@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2dff2;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    border-radius: 10px;
+    display: flex;
+    width: 800px;
+    max-width: 100%;
+    height: 550px;
+    box-shadow: 0 5px 22.5px rgba(25, 25, 93, 0.2);
+}
+
+.guide-info {
+    width: 442px;
+    background-color: #24246f;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.guide-info img {
+    width: 110px;
+}
+
+.guide-info h3 {
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.underline {
+    border-bottom: 2px dashed deeppink;
+}
+
+.guide-info p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+form {
+    width: 100%;
+    background-color: #f6f5fc;
+    padding: 45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: left;
+}
+
+form i {
+    font-size: 20px;
+    color: #10103e;
+}
+
+form h3 {
+    margin: 15px 0;
+    font-size: 30px;
+    color: #10103e;
+}
+
+.form-control {
+    margin: 10px 0;
+}
+
+label {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: rgba(16, 16, 62, 0.8);
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Muli Black', sans-serif;
+}
+
+input {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 250px;
+    height: 45px;
+    padding: 10px;
+    outline-width: 1px;
+}
+
+input:focus {
+    outline-color: #24246f;
+}
+
+.btn {
+    margin: 5px 0;
+    width: 250px;
+    height: 45px;
+    background-color: #24246f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2.5px 5px rgba(33, 33, 107, 0.35);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+small {
+    padding: 14px 0 0 0;
+    font-size: 11.5px;
+    width: 130px;
+}
+
+@media(max-width:768px) {
+
+    body {
+        /* padding: 30px; */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .guide-info {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    form {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /* form i {
+        font-size: 0px;
+    }
+
+    small {
+        position: relative;
+        right: 0px;
+        top: 9px;
+    } */
+
+}
